@@ -16,9 +16,9 @@
 #define E_O_F -2
 
 /* Global int variable */
-int history;
+extern int history;
 /* Global char variable */
-char *command_name;
+extern char *command_name;
 /* Global environemnt */
 extern char **environ;
 
@@ -45,7 +45,7 @@ typedef struct mylist
 } list_t;
 
 /**
- * struct myalias - A new struct defining aliases.
+ * struct alias - A new struct defining aliases.
  * @name: variable for name of the alias.
  * @value: varible forvalue of the alias.
  * @next: variable to next node.
