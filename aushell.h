@@ -10,16 +10,15 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <sys/wait.h>
-#include "globals.h"
 
 #define EXIT -3
 #define HOME "AUshell $ "
 #define E_O_F -2
 
 /* Global int variable */
-extern int history;
+int history;
 /* Global char variable */
-extern char *command_name;
+char *command_name;
 /* Global environemnt */
 extern char **environ;
 
