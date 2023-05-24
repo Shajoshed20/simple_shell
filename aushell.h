@@ -10,6 +10,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <sys/wait.h>
+#include "globals.h"
 
 #define EXIT -3
 #define HOME "AUshell $ "
